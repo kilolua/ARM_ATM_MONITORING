@@ -1,0 +1,40 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  width: 294px;
+  padding: 20px;
+  color: #969ba0;
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+.footer .language {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.footer .language a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.footer .language a:first-child {
+  margin: 0;
+}
+
+.footer .border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #2c3d4e;
+}
