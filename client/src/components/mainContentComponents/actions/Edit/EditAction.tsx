@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { Context } from '../../../../index'
 import EditActionHeader from './EditActionHeader'
 import EditActionForm from './EditActionForm'
-import UseIcon from '../../../../UI/Use'
+import UseIcon from '../../../../shared/ui/Use'
 import TemplateList from './TemplateList'
 import { ActionsListItem } from '../../../../models/response/ActionsResponse'
 

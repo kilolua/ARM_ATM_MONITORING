@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import UseIcon from '../../../../UI/Use'
+import UseIcon from '../../../../shared/ui/Use'
 
 const TemplateList: FC = () => {
   return (

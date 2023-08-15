@@ -1,5 +1,5 @@
 import React, { FC, useContext } from 'react'
-import '../../App.css'
+import '../../app/App.css'
 import { observer } from 'mobx-react-lite'
 import { Context } from '../../index'
 
