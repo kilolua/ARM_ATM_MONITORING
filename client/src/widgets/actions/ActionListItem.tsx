@@ -1,8 +1,8 @@
 import { observer } from 'mobx-react-lite'
 import React, { FC, useContext, useEffect } from 'react'
-import { ActionsListItem } from '../../../models/response/ActionsResponse'
-import { Context } from '../../../index'
-import ActionsServices from '../../../services/ActionsServices'
+import { ActionsListItem } from '../../models/response/ActionsResponse'
+import { Context } from '../../index'
+import ActionsServices from '../../services/ActionsServices'
 import { Link } from 'react-router-dom'
 
 interface ActionListItemProps {

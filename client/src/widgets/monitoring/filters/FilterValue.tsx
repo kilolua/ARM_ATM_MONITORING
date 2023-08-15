@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { observer } from 'mobx-react-lite'
-import { FilterStatesItemWith } from '../../../../models/response/FiltersResponse'
-import { Context } from '../../../../index'
+import { FilterStatesItemWith } from '../../../models/response/FiltersResponse'
+import { Context } from '../../../index'
 
 function FilterValue({
  id, Name, Count, ItemName 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FilterItem } from '../../../../models/response/FiltersResponse'
+import { FilterItem } from '../../../models/response/FiltersResponse'
 import FilterValue from './FilterValue'
 
 function Filter({ ItemName, States }: FilterItem) {

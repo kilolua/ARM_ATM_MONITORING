@@ -1,8 +1,8 @@
 import React, { FC, useContext, useEffect } from 'react'
 import { observer } from 'mobx-react-lite'
 import { Link } from 'react-router-dom'
-import { MonitoringAtmItem } from '../../../models/response/MonitoringResponse'
-import { Context } from '../../../index'
+import { MonitoringAtmItem } from '../../models/response/MonitoringResponse'
+import { Context } from '../../index'
 
 const getAtmStatus = (flag: boolean) => (flag ? 'green' : 'red')
 

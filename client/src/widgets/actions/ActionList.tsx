@@ -1,6 +1,6 @@
 import React, { FC, useContext, useEffect, useState } from 'react'
 import ActionListItem from './ActionListItem'
-import { Context } from '../../../index'
+import { Context } from '../../index'
 import { observer } from 'mobx-react-lite'
 
 interface propsI{

@@ -1,5 +1,5 @@
 import React, { FC, useContext, useEffect } from 'react'
-import { Context } from '../../../../index'
+import { Context } from '../../../index'
 import { observer } from 'mobx-react-lite'
 
 const PluginSelect: FC = () => {

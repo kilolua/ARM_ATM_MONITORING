@@ -2,7 +2,7 @@ import { observer } from 'mobx-react-lite'
 import DonutChart from 'react-donut-chart'
 
 import React, { useContext } from 'react'
-import { Context } from '../../../index'
+import { Context } from '../../index'
 
 function Donut() {
   const { store } = useContext(Context)

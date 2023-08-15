@@ -1,9 +1,9 @@
 import React, { FC } from 'react'
 import { observer } from 'mobx-react-lite'
 import { Routes, Route } from 'react-router-dom'
-import MainContentComponents from '../../components/mainContentComponents/MainContentComponents'
+import MainContentComponents from './MainContentComponents'
 import AtmInfo from '../atmInfo/AtmInfo'
-import EditAction from '../../components/mainContentComponents/actions/Edit/EditAction'
+import EditAction from '../actions/Edit/EditAction'
 
 const MainContent: FC = (): JSX.Element => (
   <div className="content-wrapper">

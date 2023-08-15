@@ -1,7 +1,7 @@
 import React, { FC, useContext, useEffect } from 'react'
-import '../../../app/App.css'
+import '../../app/App.css'
 import { observer } from 'mobx-react-lite'
-import { Context } from '../../../index'
+import { Context } from '../../index'
 import Event from './Event'
 
 const Events: FC = () => {

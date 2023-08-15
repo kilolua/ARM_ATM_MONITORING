@@ -1,7 +1,7 @@
 import React, { FC, useContext, useState } from 'react'
 import { observer } from 'mobx-react-lite'
 import ActionList from './ActionList'
-import { Context } from '../../../index'
+import { Context } from '../../index'
 
 const Actions: FC = () => {
   const [search, setSearch] = useState<string>('');

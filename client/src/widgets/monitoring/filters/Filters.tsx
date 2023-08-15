@@ -1,6 +1,6 @@
 import React, { FC, useContext, useEffect } from 'react'
 import { observer } from 'mobx-react-lite'
-import { Context } from '../../../../index'
+import { Context } from '../../../index'
 import Filter from './Filter'
 
 const Filters: FC = () => {

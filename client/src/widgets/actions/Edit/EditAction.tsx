@@ -1,12 +1,12 @@
 import React, { FC, useContext, useEffect, useState } from 'react'
 import { observer } from 'mobx-react-lite'
 import { useParams } from 'react-router-dom'
-import { Context } from '../../../../index'
+import { Context } from '../../../index'
 import EditActionHeader from './EditActionHeader'
 import EditActionForm from './EditActionForm'
-import UseIcon from '../../../../shared/ui/Use'
+import UseIcon from '../../../shared/ui/Use'
 import TemplateList from './TemplateList'
-import { ActionsListItem } from '../../../../models/response/ActionsResponse'
+import { ActionsListItem } from '../../../models/response/ActionsResponse'
 
 const EditAction: FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true)

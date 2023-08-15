@@ -1,10 +1,10 @@
 import React, { FC, useContext } from 'react'
 import { observer } from 'mobx-react-lite'
 import { Context } from '../../index'
-import Events from './events/Events'
-import Monitoring from './monitoring/Monitoring'
-import Packages from './packages/Packages'
-import Actions from './actions/Actions'
+import Events from '../events/Events'
+import Monitoring from '../monitoring/Monitoring'
+import Packages from '../packages/Packages'
+import Actions from '../actions/Actions'
 
 const MainContentComponents: FC = () => {
   const { store } = useContext(Context)
